@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Países</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#" class="nav-logo">Explorador de Países</a>
+        <ul>
+            <li><a href="#" class="nav-link active" data-view="home">Inicio</a></li>
+            <li><a href="#" class="nav-link" data-view="browse">Explorar</a></li>
+            <li><a href="#" class="nav-link" data-view="local">Mis favoritos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="view-home" class="view">
+            <div class="home-content">
+            <h1>🌎 ¡Bienvenido al Explorador de Países!</h1>
+            <p>Prepárate para un viaje sin fronteras. Esta herramienta está diseñada para los curiosos, los viajeros de corazón y todos aquellos que sueñan con descubrir nuevos destinos alrededor del mundo.</p>
+            <p>Con el <strong>Explorador de Países</strong> puedes conocer datos esenciales sobre cada nación: desde su ubicación, bandera y población, hasta su idioma, moneda y mucho más.</p>
+            <p>Busca países por nombre, filtra por región y crea tu propia lista de favoritos para planear futuras aventuras o simplemente para aprender más sobre nuestro fascinante planeta.</p>
+            <p>Toda la información que ves aquí se actualiza en tiempo real gracias a una API pública, lo que garantiza datos actualizados y confiables al alcance de un clic.</p>
+            <p>🌐 <em>¡Explora, aprende y deja que el mundo te inspire!</em></p>    
+            </div>
+        </div>
+
+        <div id="view-browse" class="view hidden">
+            <div class="controls-container">
+                <div class="filter-container">
+                    <input type="search" id="search-input" placeholder="Buscar un país por nombre...">
+                    <button id="search-button">Buscar</button>
+                </div>
+                <div id="region-filters" class="region-filters">
+                    <button class="region-button active" data-region="all">Todos</button>
+                    <button class="region-button" data-region="africa">África</button>
+                    <button class="region-button" data-subregion="North America">Norteamérica</button>
+                    <button class="region-button" data-subregion="Central America">Centroamérica</button> 
+                    <button class="region-button" data-subregion="South America">Sudamérica</button>
+                    <button class="region-button" data-subregion="Caribbean">Caribe</button>
+                    <button class="region-button" data-region="asia">Asia</button>
+                    <button class="region-button" data-region="europe">Europa</button>
+                    <button class="region-button" data-region="oceania">Oceanía</button>
+                </div>
+            </div>
+            <div id="countries-grid" class="results-grid"></div>
+        </div>
+        
+        <div id="view-local" class="view hidden">
+            <h2>Mis Países Guardados</h2>
+            <div id="saved-countries-grid" class="results-grid"></div>
+        </div>
+    </main>
+
+    <div id="item-modal" class="modal-container hidden">
+        <div class="modal-content">
+            <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+            <div id="modal-body"></div>
+            <div id="modal-footer" class="modal-footer">
+                <button id="modal-add-btn" class="btn-primary">Guardar en favoritos</button>
+                <button id="modal-delete-btn" class="btn-danger hidden">Eliminar País</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
