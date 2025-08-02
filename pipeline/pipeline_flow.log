@@ -1,0 +1,665 @@
+2025-08-02 00:07:54,802 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:07:56,671 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/COM?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:07:57,388 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/COM?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:07:58,179 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=-12.16666666&longitude=44.25&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:08:59,006 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/COM?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:08:59,827 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=-12.16666666&longitude=44.25&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:09:20,917 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:09:22,684 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/COM?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:09:23,476 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/COM?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:09:24,297 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=-12.16666666&longitude=44.25&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:09:24,371 - INFO - --- Procesando pipeline para CCA3: COM ---
+2025-08-02 00:09:24,489 - INFO - Pipeline: Extraídos 1 registros crudos para COM.
+2025-08-02 00:09:24,492 - INFO - Pipeline: Transformados datos para COM. Eliminados: 0, Quedan: 1
+2025-08-02 00:09:24,501 - INFO - Pipeline: Datos limpios para COM cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:09:24,505 - INFO - Pipeline: Backup de datos crudos para COM guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_COM_20250802_000924.csv
+2025-08-02 00:09:24,506 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:09:24,506 - INFO - Total registros leídos: 1
+2025-08-02 00:09:24,506 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:09:24,506 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:09:24,506 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_COM_20250802_000924.csv
+2025-08-02 00:09:50,408 - INFO - HTTP Request: GET https://restcountries.com/v3.1/subregion/Central%20America?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:09:52,048 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:09:52,786 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:09:53,504 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:09:53,564 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:09:53,571 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:09:53,572 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:09:53,588 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:09:53,590 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_000953.csv
+2025-08-02 00:09:53,590 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:09:53,590 - INFO - Total registros leídos: 1
+2025-08-02 00:09:53,590 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:09:53,590 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:09:53,590 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_000953.csv
+2025-08-02 00:09:57,371 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:09:58,192 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:09:58,935 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:09:58,991 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:09:59,001 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:09:59,003 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:09:59,022 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:09:59,025 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_000959.csv
+2025-08-02 00:09:59,025 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:09:59,025 - INFO - Total registros leídos: 1
+2025-08-02 00:09:59,025 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:09:59,026 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:09:59,026 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_000959.csv
+2025-08-02 00:10:59,733 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:11:00,658 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:11:00,704 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:11:00,713 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:11:00,714 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:11:00,724 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:11:00,726 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_001100.csv
+2025-08-02 00:11:00,726 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:11:00,726 - INFO - Total registros leídos: 1
+2025-08-02 00:11:00,726 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:11:00,726 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:11:00,726 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_001100.csv
+2025-08-02 00:11:18,681 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:11:19,402 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:11:20,220 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:11:20,271 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:11:20,293 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:11:20,294 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:11:20,305 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:11:20,306 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_001120.csv
+2025-08-02 00:11:20,307 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:11:20,307 - INFO - Total registros leídos: 1
+2025-08-02 00:11:20,307 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:11:20,307 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:11:20,307 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_001120.csv
+2025-08-02 00:11:47,075 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/COM?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:11:47,861 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/COM?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:11:48,606 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=-12.16666666&longitude=44.25&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:11:48,675 - INFO - --- Procesando pipeline para CCA3: COM ---
+2025-08-02 00:11:48,682 - INFO - Pipeline: Extraídos 1 registros crudos para COM.
+2025-08-02 00:11:48,683 - INFO - Pipeline: Transformados datos para COM. Eliminados: 0, Quedan: 1
+2025-08-02 00:11:48,694 - INFO - Pipeline: Datos limpios para COM cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:11:48,696 - INFO - Pipeline: Backup de datos crudos para COM guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_COM_20250802_001148.csv
+2025-08-02 00:11:48,696 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:11:48,696 - INFO - Total registros leídos: 1
+2025-08-02 00:11:48,696 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:11:48,696 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:11:48,696 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_COM_20250802_001148.csv
+2025-08-02 00:12:15,935 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:12:16,738 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:12:28,105 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:12:28,849 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:12:29,648 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:12:29,724 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:12:29,732 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:12:29,734 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:12:29,744 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:12:29,746 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_001229.csv
+2025-08-02 00:12:29,746 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:12:29,746 - INFO - Total registros leídos: 1
+2025-08-02 00:12:29,746 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:12:29,746 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:12:29,746 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_001229.csv
+2025-08-02 00:12:33,225 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:12:33,966 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:12:44,181 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/PAN?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:12:45,000 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/PAN?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:12:45,820 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=9.0&longitude=-80.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:12:45,902 - INFO - --- Procesando pipeline para CCA3: PAN ---
+2025-08-02 00:12:45,910 - INFO - Pipeline: Extraídos 1 registros crudos para PAN.
+2025-08-02 00:12:45,911 - INFO - Pipeline: Transformados datos para PAN. Eliminados: 0, Quedan: 1
+2025-08-02 00:12:45,921 - INFO - Pipeline: Datos limpios para PAN cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:12:45,923 - INFO - Pipeline: Backup de datos crudos para PAN guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_PAN_20250802_001245.csv
+2025-08-02 00:12:45,923 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:12:45,923 - INFO - Total registros leídos: 1
+2025-08-02 00:12:45,923 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:12:45,923 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:12:45,923 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_PAN_20250802_001245.csv
+2025-08-02 00:13:46,654 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/PAN?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:13:47,464 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=9.0&longitude=-80.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:13:47,548 - INFO - --- Procesando pipeline para CCA3: PAN ---
+2025-08-02 00:13:47,554 - INFO - Pipeline: Extraídos 1 registros crudos para PAN.
+2025-08-02 00:13:47,556 - INFO - Pipeline: Transformados datos para PAN. Eliminados: 0, Quedan: 1
+2025-08-02 00:13:47,568 - INFO - Pipeline: Datos limpios para PAN cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:13:47,569 - INFO - Pipeline: Backup de datos crudos para PAN guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_PAN_20250802_001347.csv
+2025-08-02 00:13:47,570 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:13:47,570 - INFO - Total registros leídos: 1
+2025-08-02 00:13:47,570 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:13:47,570 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:13:47,570 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_PAN_20250802_001347.csv
+2025-08-02 00:14:06,409 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/GTM?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:14:07,151 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/GTM?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:14:07,944 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=15.5&longitude=-90.25&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:14:08,002 - INFO - --- Procesando pipeline para CCA3: GTM ---
+2025-08-02 00:14:08,008 - INFO - Pipeline: Extraídos 1 registros crudos para GTM.
+2025-08-02 00:14:08,010 - INFO - Pipeline: Transformados datos para GTM. Eliminados: 0, Quedan: 1
+2025-08-02 00:14:08,018 - INFO - Pipeline: Datos limpios para GTM cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:14:08,020 - INFO - Pipeline: Backup de datos crudos para GTM guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_GTM_20250802_001408.csv
+2025-08-02 00:14:08,020 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:14:08,021 - INFO - Total registros leídos: 1
+2025-08-02 00:14:08,021 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:14:08,021 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:14:08,021 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_GTM_20250802_001408.csv
+2025-08-02 00:15:08,771 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/GTM?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:15:09,589 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=15.5&longitude=-90.25&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:15:09,662 - INFO - --- Procesando pipeline para CCA3: GTM ---
+2025-08-02 00:15:09,672 - INFO - Pipeline: Extraídos 1 registros crudos para GTM.
+2025-08-02 00:15:09,673 - INFO - Pipeline: Transformados datos para GTM. Eliminados: 0, Quedan: 1
+2025-08-02 00:15:09,680 - INFO - Pipeline: Datos limpios para GTM cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:15:09,683 - INFO - Pipeline: Backup de datos crudos para GTM guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_GTM_20250802_001509.csv
+2025-08-02 00:15:09,683 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:15:09,683 - INFO - Total registros leídos: 1
+2025-08-02 00:15:09,683 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:15:09,683 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:15:09,683 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_GTM_20250802_001509.csv
+2025-08-02 00:16:08,705 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/GTM?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:16:09,492 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=15.5&longitude=-90.25&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:16:09,550 - INFO - --- Procesando pipeline para CCA3: GTM ---
+2025-08-02 00:16:09,558 - INFO - Pipeline: Extraídos 1 registros crudos para GTM.
+2025-08-02 00:16:09,560 - INFO - Pipeline: Transformados datos para GTM. Eliminados: 0, Quedan: 1
+2025-08-02 00:16:09,570 - INFO - Pipeline: Datos limpios para GTM cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:16:09,572 - INFO - Pipeline: Backup de datos crudos para GTM guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_GTM_20250802_001609.csv
+2025-08-02 00:16:09,572 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:16:09,572 - INFO - Total registros leídos: 1
+2025-08-02 00:16:09,572 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:16:09,572 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:16:09,572 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_GTM_20250802_001609.csv
+2025-08-02 00:17:08,910 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/GTM?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:17:09,711 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=15.5&longitude=-90.25&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:17:09,777 - INFO - --- Procesando pipeline para CCA3: GTM ---
+2025-08-02 00:17:09,787 - INFO - Pipeline: Extraídos 1 registros crudos para GTM.
+2025-08-02 00:17:09,790 - INFO - Pipeline: Transformados datos para GTM. Eliminados: 0, Quedan: 1
+2025-08-02 00:17:09,810 - INFO - Pipeline: Datos limpios para GTM cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:17:09,812 - INFO - Pipeline: Backup de datos crudos para GTM guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_GTM_20250802_001709.csv
+2025-08-02 00:17:09,813 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:17:09,813 - INFO - Total registros leídos: 1
+2025-08-02 00:17:09,813 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:17:09,813 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:17:09,813 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_GTM_20250802_001709.csv
+2025-08-02 00:18:49,257 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:18:54,253 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:19:02,445 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/ZWE?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:19:03,267 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/ZWE?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:19:04,019 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=-20.0&longitude=30.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:19:04,086 - INFO - --- Procesando pipeline para CCA3: ZWE ---
+2025-08-02 00:19:04,103 - INFO - Pipeline: Extraídos 1 registros crudos para ZWE.
+2025-08-02 00:19:04,111 - INFO - Pipeline: Transformados datos para ZWE. Eliminados: 0, Quedan: 1
+2025-08-02 00:19:04,122 - INFO - Pipeline: Datos limpios para ZWE cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:19:04,131 - INFO - Pipeline: Backup de datos crudos para ZWE guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_ZWE_20250802_001904.csv
+2025-08-02 00:19:04,131 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:19:04,131 - INFO - Total registros leídos: 1
+2025-08-02 00:19:04,131 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:19:04,131 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:19:04,131 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_ZWE_20250802_001904.csv
+2025-08-02 00:19:06,133 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/ZWE?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:19:06,953 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=-20.0&longitude=30.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:19:07,031 - INFO - --- Procesando pipeline para CCA3: ZWE ---
+2025-08-02 00:19:07,036 - INFO - Pipeline: Extraídos 1 registros crudos para ZWE.
+2025-08-02 00:19:07,042 - INFO - Pipeline: Transformados datos para ZWE. Eliminados: 0, Quedan: 1
+2025-08-02 00:19:07,057 - INFO - Pipeline: Datos limpios para ZWE cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:19:07,060 - INFO - Pipeline: Backup de datos crudos para ZWE guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_ZWE_20250802_001907.csv
+2025-08-02 00:19:07,060 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:19:07,060 - INFO - Total registros leídos: 1
+2025-08-02 00:19:07,060 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:19:07,060 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:19:07,060 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_ZWE_20250802_001907.csv
+2025-08-02 00:19:09,237 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/ZWE?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:19:10,024 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=-20.0&longitude=30.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:19:10,108 - INFO - --- Procesando pipeline para CCA3: ZWE ---
+2025-08-02 00:19:10,114 - INFO - Pipeline: Extraídos 1 registros crudos para ZWE.
+2025-08-02 00:19:10,115 - INFO - Pipeline: Transformados datos para ZWE. Eliminados: 0, Quedan: 1
+2025-08-02 00:19:10,128 - INFO - Pipeline: Datos limpios para ZWE cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:19:10,130 - INFO - Pipeline: Backup de datos crudos para ZWE guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_ZWE_20250802_001910.csv
+2025-08-02 00:19:10,130 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:19:10,130 - INFO - Total registros leídos: 1
+2025-08-02 00:19:10,130 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:19:10,130 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:19:10,130 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_ZWE_20250802_001910.csv
+2025-08-02 00:19:12,788 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/ZWE?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:19:13,541 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=-20.0&longitude=30.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:19:13,609 - INFO - --- Procesando pipeline para CCA3: ZWE ---
+2025-08-02 00:19:13,617 - INFO - Pipeline: Extraídos 1 registros crudos para ZWE.
+2025-08-02 00:19:13,618 - INFO - Pipeline: Transformados datos para ZWE. Eliminados: 0, Quedan: 1
+2025-08-02 00:19:13,627 - INFO - Pipeline: Datos limpios para ZWE cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:19:13,629 - INFO - Pipeline: Backup de datos crudos para ZWE guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_ZWE_20250802_001913.csv
+2025-08-02 00:19:13,629 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:19:13,629 - INFO - Total registros leídos: 1
+2025-08-02 00:19:13,629 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:19:13,629 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:19:13,630 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_ZWE_20250802_001913.csv
+2025-08-02 00:19:20,471 - INFO - HTTP Request: GET https://restcountries.com/v3.1/region/africa?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:19:21,392 - INFO - HTTP Request: GET https://restcountries.com/v3.1/region/africa?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:19:47,298 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:22:24,584 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:22:26,631 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/MDA?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:22:27,451 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/MDA?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:22:28,248 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=47.0&longitude=29.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:22:28,328 - INFO - --- Procesando pipeline para CCA3: MDA ---
+2025-08-02 00:22:28,339 - INFO - Pipeline: Extraídos 1 registros crudos para MDA.
+2025-08-02 00:22:28,341 - INFO - Pipeline: Transformados datos para MDA. Eliminados: 0, Quedan: 1
+2025-08-02 00:22:28,357 - INFO - Pipeline: Datos limpios para MDA cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:22:28,359 - INFO - Pipeline: Backup de datos crudos para MDA guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_MDA_20250802_002228.csv
+2025-08-02 00:22:28,359 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:22:28,359 - INFO - Total registros leídos: 1
+2025-08-02 00:22:28,359 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:22:28,359 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:22:28,359 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_MDA_20250802_002228.csv
+2025-08-02 00:22:31,262 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/MDA?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:22:32,059 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=47.0&longitude=29.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:22:32,159 - INFO - --- Procesando pipeline para CCA3: MDA ---
+2025-08-02 00:22:32,169 - INFO - Pipeline: Extraídos 1 registros crudos para MDA.
+2025-08-02 00:22:32,171 - INFO - Pipeline: Transformados datos para MDA. Eliminados: 0, Quedan: 1
+2025-08-02 00:22:32,186 - INFO - Pipeline: Datos limpios para MDA cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:22:32,188 - INFO - Pipeline: Backup de datos crudos para MDA guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_MDA_20250802_002232.csv
+2025-08-02 00:22:32,188 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:22:32,188 - INFO - Total registros leídos: 1
+2025-08-02 00:22:32,188 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:22:32,188 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:22:32,188 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_MDA_20250802_002232.csv
+2025-08-02 00:22:35,745 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/MDA?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:22:44,449 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/MDA?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:22:45,271 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=47.0&longitude=29.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:22:45,351 - INFO - --- Procesando pipeline para CCA3: MDA ---
+2025-08-02 00:22:45,359 - INFO - Pipeline: Extraídos 1 registros crudos para MDA.
+2025-08-02 00:22:45,360 - INFO - Pipeline: Transformados datos para MDA. Eliminados: 0, Quedan: 1
+2025-08-02 00:22:45,373 - INFO - Pipeline: Datos limpios para MDA cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:22:45,375 - INFO - Pipeline: Backup de datos crudos para MDA guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_MDA_20250802_002245.csv
+2025-08-02 00:22:45,375 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:22:45,375 - INFO - Total registros leídos: 1
+2025-08-02 00:22:45,375 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:22:45,375 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:22:45,375 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_MDA_20250802_002245.csv
+2025-08-02 00:22:53,050 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:22:53,870 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:22:54,689 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:22:54,768 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:22:54,783 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:22:54,785 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:22:54,802 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:22:54,806 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002254.csv
+2025-08-02 00:22:54,807 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:22:54,807 - INFO - Total registros leídos: 1
+2025-08-02 00:22:54,807 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:22:54,807 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:22:54,807 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002254.csv
+2025-08-02 00:22:56,941 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:23:04,750 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:23:05,543 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:23:05,639 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:23:05,651 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:23:05,652 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:23:05,666 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:23:05,668 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002305.csv
+2025-08-02 00:23:05,669 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:23:05,669 - INFO - Total registros leídos: 1
+2025-08-02 00:23:05,669 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:23:05,669 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:23:05,669 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002305.csv
+2025-08-02 00:23:55,724 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:23:56,539 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:23:56,629 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:23:56,634 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:23:56,654 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:23:56,666 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:23:56,667 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002356.csv
+2025-08-02 00:23:56,667 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:23:56,667 - INFO - Total registros leídos: 1
+2025-08-02 00:23:56,668 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:23:56,668 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:23:56,668 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002356.csv
+2025-08-02 00:24:57,159 - INFO - HTTP Request: GET https://restcountries.com/v3.1/subregion/Central%20America?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:24:59,309 - INFO - HTTP Request: GET https://restcountries.com/v3.1/subregion/North%20America?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:25:00,640 - INFO - HTTP Request: GET https://restcountries.com/v3.1/subregion/Central%20America?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:25:02,306 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:03,097 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:10,601 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:11,393 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=15.0&longitude=-86.5&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:25:11,468 - INFO - --- Procesando pipeline para CCA3: HND ---
+2025-08-02 00:25:11,484 - INFO - Pipeline: Extraídos 1 registros crudos para HND.
+2025-08-02 00:25:11,487 - INFO - Pipeline: Transformados datos para HND. Eliminados: 0, Quedan: 1
+2025-08-02 00:25:11,519 - INFO - Pipeline: Datos limpios para HND cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:25:11,522 - INFO - Pipeline: Backup de datos crudos para HND guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_HND_20250802_002511.csv
+2025-08-02 00:25:11,522 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:25:11,522 - INFO - Total registros leídos: 1
+2025-08-02 00:25:11,522 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:25:11,522 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:25:11,522 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_HND_20250802_002511.csv
+2025-08-02 00:25:12,937 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:13,724 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=15.0&longitude=-86.5&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:25:13,776 - INFO - --- Procesando pipeline para CCA3: HND ---
+2025-08-02 00:25:13,782 - INFO - Pipeline: Extraídos 1 registros crudos para HND.
+2025-08-02 00:25:13,783 - INFO - Pipeline: Transformados datos para HND. Eliminados: 0, Quedan: 1
+2025-08-02 00:25:13,797 - INFO - Pipeline: Datos limpios para HND cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:25:13,799 - INFO - Pipeline: Backup de datos crudos para HND guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_HND_20250802_002513.csv
+2025-08-02 00:25:13,799 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:25:13,799 - INFO - Total registros leídos: 1
+2025-08-02 00:25:13,800 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:25:13,800 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:25:13,800 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_HND_20250802_002513.csv
+2025-08-02 00:25:20,131 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/NIC?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:20,915 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/NIC?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:21,638 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=13.0&longitude=-85.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:25:21,723 - INFO - --- Procesando pipeline para CCA3: NIC ---
+2025-08-02 00:25:21,735 - INFO - Pipeline: Extraídos 1 registros crudos para NIC.
+2025-08-02 00:25:21,736 - INFO - Pipeline: Transformados datos para NIC. Eliminados: 0, Quedan: 1
+2025-08-02 00:25:21,748 - INFO - Pipeline: Datos limpios para NIC cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:25:21,750 - INFO - Pipeline: Backup de datos crudos para NIC guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_NIC_20250802_002521.csv
+2025-08-02 00:25:21,750 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:25:21,750 - INFO - Total registros leídos: 1
+2025-08-02 00:25:21,750 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:25:21,750 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:25:21,750 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_NIC_20250802_002521.csv
+2025-08-02 00:25:26,678 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/NIC?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:34,226 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/NIC?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:34,944 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=13.0&longitude=-85.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:25:35,037 - INFO - --- Procesando pipeline para CCA3: NIC ---
+2025-08-02 00:25:35,043 - INFO - Pipeline: Extraídos 1 registros crudos para NIC.
+2025-08-02 00:25:35,046 - INFO - Pipeline: Transformados datos para NIC. Eliminados: 0, Quedan: 1
+2025-08-02 00:25:35,058 - INFO - Pipeline: Datos limpios para NIC cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:25:35,061 - INFO - Pipeline: Backup de datos crudos para NIC guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_NIC_20250802_002535.csv
+2025-08-02 00:25:35,061 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:25:35,061 - INFO - Total registros leídos: 1
+2025-08-02 00:25:35,062 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:25:35,062 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:25:35,062 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_NIC_20250802_002535.csv
+2025-08-02 00:25:45,813 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:46,617 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:25:47,438 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:25:47,512 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:25:47,542 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:25:47,544 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:25:47,559 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:25:47,561 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002547.csv
+2025-08-02 00:25:47,561 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:25:47,561 - INFO - Total registros leídos: 1
+2025-08-02 00:25:47,561 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:25:47,561 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:25:47,561 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002547.csv
+2025-08-02 00:25:51,329 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:26:07,624 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:26:48,261 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:26:48,988 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:26:49,071 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:26:49,077 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:26:49,079 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:26:49,094 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:26:49,096 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002649.csv
+2025-08-02 00:26:49,096 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:26:49,097 - INFO - Total registros leídos: 1
+2025-08-02 00:26:49,097 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:26:49,097 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:26:49,097 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002649.csv
+2025-08-02 00:27:48,269 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:27:49,089 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:27:49,155 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:27:49,160 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:27:49,162 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:27:49,174 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:27:49,176 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002749.csv
+2025-08-02 00:27:49,176 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:27:49,176 - INFO - Total registros leídos: 1
+2025-08-02 00:27:49,176 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:27:49,176 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:27:49,176 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002749.csv
+2025-08-02 00:28:43,565 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:28:47,496 - INFO - HTTP Request: GET https://restcountries.com/v3.1/subregion/North%20America?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:28:51,250 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/USA?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:28:52,065 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/USA?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:28:52,883 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=38.0&longitude=-97.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:28:52,948 - INFO - --- Procesando pipeline para CCA3: USA ---
+2025-08-02 00:28:52,964 - INFO - Pipeline: Extraídos 1 registros crudos para USA.
+2025-08-02 00:28:52,968 - INFO - Pipeline: Transformados datos para USA. Eliminados: 0, Quedan: 1
+2025-08-02 00:28:52,978 - INFO - Pipeline: Datos limpios para USA cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:28:52,983 - INFO - Pipeline: Backup de datos crudos para USA guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_USA_20250802_002852.csv
+2025-08-02 00:28:52,984 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:28:52,984 - INFO - Total registros leídos: 1
+2025-08-02 00:28:52,984 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:28:52,984 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:28:52,984 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_USA_20250802_002852.csv
+2025-08-02 00:28:57,593 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/USA?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:28:58,313 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=38.0&longitude=-97.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:28:58,395 - INFO - --- Procesando pipeline para CCA3: USA ---
+2025-08-02 00:28:58,401 - INFO - Pipeline: Extraídos 1 registros crudos para USA.
+2025-08-02 00:28:58,403 - INFO - Pipeline: Transformados datos para USA. Eliminados: 0, Quedan: 1
+2025-08-02 00:28:58,417 - INFO - Pipeline: Datos limpios para USA cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:28:58,419 - INFO - Pipeline: Backup de datos crudos para USA guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_USA_20250802_002858.csv
+2025-08-02 00:28:58,419 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:28:58,419 - INFO - Total registros leídos: 1
+2025-08-02 00:28:58,419 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:28:58,419 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:28:58,419 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_USA_20250802_002858.csv
+2025-08-02 00:29:03,636 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:29:04,376 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:29:05,172 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=60.0&longitude=-95.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:29:05,243 - INFO - --- Procesando pipeline para CCA3: CAN ---
+2025-08-02 00:29:05,252 - INFO - Pipeline: Extraídos 1 registros crudos para CAN.
+2025-08-02 00:29:05,254 - INFO - Pipeline: Transformados datos para CAN. Eliminados: 0, Quedan: 1
+2025-08-02 00:29:05,263 - INFO - Pipeline: Datos limpios para CAN cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:29:05,267 - INFO - Pipeline: Backup de datos crudos para CAN guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_002905.csv
+2025-08-02 00:29:05,267 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:29:05,268 - INFO - Total registros leídos: 1
+2025-08-02 00:29:05,268 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:29:05,268 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:29:05,268 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_002905.csv
+2025-08-02 00:29:58,010 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:29:58,744 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:29:59,546 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:29:59,629 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:29:59,634 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:29:59,636 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:29:59,649 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:29:59,651 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002959.csv
+2025-08-02 00:29:59,652 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:29:59,652 - INFO - Total registros leídos: 1
+2025-08-02 00:29:59,652 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:29:59,652 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:29:59,652 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_002959.csv
+2025-08-02 00:30:04,972 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:30:05,801 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:30:05,878 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:30:05,891 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:30:05,893 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:30:05,906 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:30:05,908 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003005.csv
+2025-08-02 00:30:05,908 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:30:05,908 - INFO - Total registros leídos: 1
+2025-08-02 00:30:05,908 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:30:05,908 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:30:05,908 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003005.csv
+2025-08-02 00:30:08,148 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:30:08,903 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:32:50,043 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:32:51,784 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/MYS?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:32:52,603 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/MYS?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:32:53,348 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=2.5&longitude=112.5&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:32:53,427 - INFO - --- Procesando pipeline para CCA3: MYS ---
+2025-08-02 00:32:53,438 - INFO - Pipeline: Extraídos 1 registros crudos para MYS.
+2025-08-02 00:32:53,440 - INFO - Pipeline: Transformados datos para MYS. Eliminados: 0, Quedan: 1
+2025-08-02 00:32:53,457 - INFO - Pipeline: Datos limpios para MYS cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:32:53,459 - INFO - Pipeline: Backup de datos crudos para MYS guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_MYS_20250802_003253.csv
+2025-08-02 00:32:53,459 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:32:53,459 - INFO - Total registros leídos: 1
+2025-08-02 00:32:53,459 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:32:53,459 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:32:53,459 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_MYS_20250802_003253.csv
+2025-08-02 00:33:06,253 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:33:07,039 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:33:37,044 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:33:37,780 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:33:38,500 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:33:38,558 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:33:38,563 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:33:38,565 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:33:38,580 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:33:38,584 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003338.csv
+2025-08-02 00:33:38,584 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:33:38,584 - INFO - Total registros leídos: 1
+2025-08-02 00:33:38,584 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:33:38,584 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:33:38,584 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003338.csv
+2025-08-02 00:35:38,489 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:35:42,072 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:35:42,891 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:35:43,710 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:35:43,765 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:35:43,826 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:35:43,832 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:35:43,892 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:35:43,897 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003543.csv
+2025-08-02 00:35:43,897 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:35:43,897 - INFO - Total registros leídos: 1
+2025-08-02 00:35:43,897 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:35:43,897 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:35:43,897 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003543.csv
+2025-08-02 00:35:45,452 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:35:46,272 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:35:46,385 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:35:46,397 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:35:46,400 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:35:46,413 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:35:46,415 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003546.csv
+2025-08-02 00:35:46,415 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:35:46,415 - INFO - Total registros leídos: 1
+2025-08-02 00:35:46,415 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:35:46,415 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:35:46,415 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003546.csv
+2025-08-02 00:36:06,444 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:36:07,264 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/HND?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:36:08,058 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=15.0&longitude=-86.5&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:36:08,195 - INFO - --- Procesando pipeline para CCA3: HND ---
+2025-08-02 00:36:08,205 - INFO - Pipeline: Extraídos 1 registros crudos para HND.
+2025-08-02 00:36:08,207 - INFO - Pipeline: Transformados datos para HND. Eliminados: 0, Quedan: 1
+2025-08-02 00:36:08,214 - INFO - Pipeline: Datos limpios para HND cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:36:08,217 - INFO - Pipeline: Backup de datos crudos para HND guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_HND_20250802_003608.csv
+2025-08-02 00:36:08,217 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:36:08,217 - INFO - Total registros leídos: 1
+2025-08-02 00:36:08,218 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:36:08,218 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:36:08,218 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_HND_20250802_003608.csv
+2025-08-02 00:36:25,082 - INFO - HTTP Request: GET https://restcountries.com/v3.1/subregion/North%20America?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:36:27,357 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:36:28,152 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:36:28,973 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=60.0&longitude=-95.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:36:29,037 - INFO - --- Procesando pipeline para CCA3: CAN ---
+2025-08-02 00:36:29,042 - INFO - Pipeline: Extraídos 1 registros crudos para CAN.
+2025-08-02 00:36:29,045 - INFO - Pipeline: Transformados datos para CAN. Eliminados: 0, Quedan: 1
+2025-08-02 00:36:29,058 - INFO - Pipeline: Datos limpios para CAN cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:36:29,060 - INFO - Pipeline: Backup de datos crudos para CAN guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_003629.csv
+2025-08-02 00:36:29,060 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:36:29,060 - INFO - Total registros leídos: 1
+2025-08-02 00:36:29,060 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:36:29,060 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:36:29,060 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_003629.csv
+2025-08-02 00:37:29,797 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:37:30,616 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=60.0&longitude=-95.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:37:30,679 - INFO - --- Procesando pipeline para CCA3: CAN ---
+2025-08-02 00:37:30,686 - INFO - Pipeline: Extraídos 1 registros crudos para CAN.
+2025-08-02 00:37:30,687 - INFO - Pipeline: Transformados datos para CAN. Eliminados: 0, Quedan: 1
+2025-08-02 00:37:30,702 - INFO - Pipeline: Datos limpios para CAN cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:37:30,704 - INFO - Pipeline: Backup de datos crudos para CAN guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_003730.csv
+2025-08-02 00:37:30,704 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:37:30,704 - INFO - Total registros leídos: 1
+2025-08-02 00:37:30,704 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:37:30,704 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:37:30,704 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_003730.csv
+2025-08-02 00:37:58,469 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:38:00,621 - INFO - HTTP Request: GET https://restcountries.com/v3.1/subregion/North%20America?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:38:02,582 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:38:03,384 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:38:04,203 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=60.0&longitude=-95.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:38:04,266 - INFO - --- Procesando pipeline para CCA3: CAN ---
+2025-08-02 00:38:04,271 - INFO - Pipeline: Extraídos 1 registros crudos para CAN.
+2025-08-02 00:38:04,274 - INFO - Pipeline: Transformados datos para CAN. Eliminados: 0, Quedan: 1
+2025-08-02 00:38:04,293 - INFO - Pipeline: Datos limpios para CAN cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:38:04,296 - INFO - Pipeline: Backup de datos crudos para CAN guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_003804.csv
+2025-08-02 00:38:04,296 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:38:04,297 - INFO - Total registros leídos: 1
+2025-08-02 00:38:04,297 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:38:04,297 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:38:04,297 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_003804.csv
+2025-08-02 00:38:07,993 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:38:23,478 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:38:24,273 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:38:25,006 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:38:25,076 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:38:25,082 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:38:25,085 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:38:25,097 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:38:25,099 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003825.csv
+2025-08-02 00:38:25,099 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:38:25,099 - INFO - Total registros leídos: 1
+2025-08-02 00:38:25,099 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:38:25,099 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:38:25,099 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003825.csv
+2025-08-02 00:38:27,243 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:38:27,998 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:38:28,089 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:38:28,094 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:38:28,099 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:38:28,110 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:38:28,112 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003828.csv
+2025-08-02 00:38:28,112 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:38:28,112 - INFO - Total registros leídos: 1
+2025-08-02 00:38:28,112 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:38:28,112 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:38:28,112 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003828.csv
+2025-08-02 00:38:32,260 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:38:32,983 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:38:33,084 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:38:33,089 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:38:33,092 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:38:33,104 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:38:33,107 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003833.csv
+2025-08-02 00:38:33,107 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:38:33,107 - INFO - Total registros leídos: 1
+2025-08-02 00:38:33,107 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:38:33,107 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:38:33,107 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003833.csv
+2025-08-02 00:39:25,828 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:39:26,635 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:39:26,700 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:39:26,708 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:39:26,709 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:39:26,727 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:39:26,728 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003926.csv
+2025-08-02 00:39:26,729 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:39:26,729 - INFO - Total registros leídos: 1
+2025-08-02 00:39:26,729 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:39:26,729 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:39:26,729 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_003926.csv
+2025-08-02 00:40:25,924 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CRI?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:40:26,743 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=10.0&longitude=-84.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:40:26,859 - INFO - --- Procesando pipeline para CCA3: CRI ---
+2025-08-02 00:40:26,868 - INFO - Pipeline: Extraídos 1 registros crudos para CRI.
+2025-08-02 00:40:26,870 - INFO - Pipeline: Transformados datos para CRI. Eliminados: 0, Quedan: 1
+2025-08-02 00:40:26,892 - INFO - Pipeline: Datos limpios para CRI cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:40:26,895 - INFO - Pipeline: Backup de datos crudos para CRI guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_004026.csv
+2025-08-02 00:40:26,895 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:40:26,895 - INFO - Total registros leídos: 1
+2025-08-02 00:40:26,895 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:40:26,895 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:40:26,895 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CRI_20250802_004026.csv
+2025-08-02 00:55:29,400 - INFO - HTTP Request: GET https://restcountries.com/v3.1/all?fields=name,cca3,flags,region "HTTP/1.1 200 OK"
+2025-08-02 00:55:31,859 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,capital,population,currencies,languages,flags,region,cca3,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:55:32,676 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:55:33,528 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=60.0&longitude=-95.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:55:33,648 - INFO - --- Procesando pipeline para CCA3: CAN ---
+2025-08-02 00:55:33,665 - INFO - Pipeline: Extraídos 1 registros crudos para CAN.
+2025-08-02 00:55:33,668 - INFO - Pipeline: Transformados datos para CAN. Eliminados: 0, Quedan: 1
+2025-08-02 00:55:33,680 - INFO - Pipeline: Datos limpios para CAN cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:55:33,685 - INFO - Pipeline: Backup de datos crudos para CAN guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_005533.csv
+2025-08-02 00:55:33,686 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:55:33,686 - INFO - Total registros leídos: 1
+2025-08-02 00:55:33,686 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:55:33,686 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:55:33,686 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_005533.csv
+2025-08-02 00:55:36,579 - INFO - HTTP Request: GET https://restcountries.com/v3.1/alpha/CAN?fields=name,latlng "HTTP/1.1 200 OK"
+2025-08-02 00:55:37,316 - INFO - HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=60.0&longitude=-95.0&current_weather=true&timezone=auto "HTTP/1.1 200 OK"
+2025-08-02 00:55:37,382 - INFO - --- Procesando pipeline para CCA3: CAN ---
+2025-08-02 00:55:37,393 - INFO - Pipeline: Extraídos 1 registros crudos para CAN.
+2025-08-02 00:55:37,395 - INFO - Pipeline: Transformados datos para CAN. Eliminados: 0, Quedan: 1
+2025-08-02 00:55:37,411 - INFO - Pipeline: Datos limpios para CAN cargados/actualizados en 'weather_cleaned_data'.
+2025-08-02 00:55:37,413 - INFO - Pipeline: Backup de datos crudos para CAN guardado en C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_005537.csv
+2025-08-02 00:55:37,413 - INFO - --- Resumen de la Ejecución del Pipeline ---
+2025-08-02 00:55:37,413 - INFO - Total registros leídos: 1
+2025-08-02 00:55:37,413 - INFO - Total registros limpiados/eliminados: 0
+2025-08-02 00:55:37,413 - INFO - Total registros cargados (limpios): 1
+2025-08-02 00:55:37,413 - INFO - Rutas de backups CSV: C:\Users\Gabo\Desktop\ULEAD\Progra web\Tercer entregable grupal\pipeline\backups\backup_raw_weather_CAN_20250802_005537.csv

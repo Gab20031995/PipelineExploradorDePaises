@@ -1,0 +1,2 @@
+id,cca3,city,temperature,windspeed,time,raw_json,timestamp
+33,CAN,Canada,15.1,3.8,2025-08-02T01:15,"{""time"": ""2025-08-02T01:15"", ""is_day"": 0, ""interval"": 900, ""windspeed"": 3.8, ""temperature"": 15.1, ""weathercode"": 3, ""winddirection"": 311}",2025-08-02 06:29:05

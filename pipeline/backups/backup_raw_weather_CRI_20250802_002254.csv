@@ -1,0 +1,2 @@
+id,cca3,city,temperature,windspeed,time,raw_json,timestamp
+21,CRI,Costa Rica,20.8,9.1,2025-08-02T00:15,"{""time"": ""2025-08-02T00:15"", ""is_day"": 0, ""interval"": 900, ""windspeed"": 9.1, ""temperature"": 20.8, ""weathercode"": 3, ""winddirection"": 99}",2025-08-02 06:22:54

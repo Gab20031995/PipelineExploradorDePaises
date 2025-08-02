@@ -4,6 +4,11 @@
     --primary-hover: #0056b3;
     --danger-color: #dc3545;
     --danger-hover: #c82333;
+    --success-color: #28a745;
+    --info-color: #17a2b8;
+    --warning-color: #ffc107;
+    --secondary-color: #6c757d; 
+    --secondary-hover: #5a6268;
 }
 
 body {
@@ -21,6 +26,12 @@ main {
 
 .hidden {
     display: none !important;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -79,17 +90,45 @@ nav ul li a.active {
 }
 
 /* Vista de Inicio */
+.home-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    line-height: 1.6;
+}
+
+.home-content h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
 .home-content p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.7;
     color: #555;
+    margin-bottom: 1rem;
+}
+
+.home-content p:last-of-type {
+    margin-bottom: 0;
 }
 
 /* Contenedores de Búsqueda y Filtros */
+.controls-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
 .filter-container {
     display: flex;
     gap: 10px;
     margin-bottom: 1rem;
+    flex-wrap: wrap; 
 }
 
 #search-input {
@@ -98,6 +137,7 @@ nav ul li a.active {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    min-width: 180px; 
 }
 
 #search-button,
@@ -108,7 +148,8 @@ nav ul li a.active {
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.1s;
+    flex-shrink: 0; 
 }
 
 #search-button {
@@ -118,13 +159,15 @@ nav ul li a.active {
 
 #search-button:hover {
     background-color: var(--primary-hover);
+    transform: translateY(-1px);
 }
 
 .region-filters {
     display: flex;
-    gap: 10px;
-    margin-bottom: 2rem;
+    gap: 8px; 
+    margin-bottom: 1rem;
     flex-wrap: wrap;
+    justify-content: center; 
 }
 
 .region-button {
@@ -135,6 +178,7 @@ nav ul li a.active {
 .region-button.active,
 .region-button:hover {
     background-color: #ced4da;
+    transform: translateY(-1px);
 }
 
 /* Tarjetas y Grid */
@@ -164,13 +208,14 @@ nav ul li a.active {
     width: 100%;
     height: 160px;
     object-fit: cover;
+    border-bottom: 1px solid #eee;
 }
 
 .card-body {
     padding: 20px;
 }
 
-/* Modal */
+/* Modal de País */
 .modal-container {
     position: fixed;
     top: 0;
@@ -182,15 +227,20 @@ nav ul li a.active {
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    padding: 20px; 
+    box-sizing: border-box;
 }
 
 .modal-content {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
-    max-width: 500px;
-    width: 90%;
+    max-width: 550px; 
+    width: 100%; 
     position: relative;
+    max-height: 90vh; 
+    overflow-y: auto; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .modal-close-btn {
@@ -202,23 +252,42 @@ nav ul li a.active {
     font-size: 2.5rem;
     cursor: pointer;
     color: #888;
+    transition: color 0.2s;
+}
+
+.modal-close-btn:hover {
+    color: #333;
 }
 
 .modal-body h2 {
     color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.modal-body p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.modal-body strong {
+    color: #444;
 }
 
 .modal-footer {
-    margin-top: 20px;
+    margin-top: 25px;
     padding-top: 20px;
     border-top: 1px solid #eee;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
 
 .btn-primary,
-.btn-danger {
+.btn-danger,
+.btn-secondary { 
     color: white;
     width: 100%;
     padding: 12px 20px;
@@ -227,7 +296,7 @@ nav ul li a.active {
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.1s;
 }
 
 .btn-primary {
@@ -236,6 +305,7 @@ nav ul li a.active {
 
 .btn-primary:hover {
     background-color: var(--primary-hover);
+    transform: translateY(-1px);
 }
 
 .btn-danger {
@@ -244,9 +314,24 @@ nav ul li a.active {
 
 .btn-danger:hover {
     background-color: var(--danger-hover);
+    transform: translateY(-1px);
 }
 
-/* Textos de ayuda */
+.btn-secondary { 
+    background-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-hover);
+    transform: translateY(-1px);
+}
+
+.btn-secondary:disabled { 
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
 .loading-text,
 .error-text,
 .placeholder-text {
@@ -255,4 +340,199 @@ nav ul li a.active {
     grid-column: 1 / -1;
     text-align: center;
     font-size: 1.2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Estilos para la sección de Clima */
+.weather-info {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+.weather-info h3 {
+    color: var(--info-color);
+    margin-bottom: 0; 
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.weather-info h3::before {
+    content: "☁️"; 
+    font-size: 1.5rem;
+}
+
+.weather-info p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.weather-info strong {
+    color: #333;
+}
+
+.weather-info .last-updated-text {
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Estilos para el botón de clima dentro del modal */
+.weather-info .weather-btn {
+    margin-top: 10px; 
+    align-self: flex-start; 
+    max-width: 180px; 
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: var(--primary-color); 
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: 8px; 
+}
+
+.spinner.hidden {
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/* Estilos para el Modal de Mensajes Personalizados */
+#custom-message-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.custom-message-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    animation: fadeInScale 0.3s ease-out;
+}
+
+.custom-message-content p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #444;
+}
+
+.custom-message-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.custom-message-buttons button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.custom-message-buttons .btn-confirm {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.custom-message-buttons .btn-confirm:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-1px);
+}
+
+.custom-message-buttons .btn-cancel {
+    background-color: #6c757d; 
+    color: white;
+}
+
+.custom-message-buttons .btn-cancel:hover {
+    background-color: #5a6268;
+    transform: translateY(-1px);
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+    nav ul {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav ul li a {
+        padding: 0.8rem 0.5rem;
+        font-size: 0.9rem;
+    }
+    .filter-container {
+        flex-direction: column;
+    }
+    #search-input, #search-button {
+        width: 100%;
+        margin-left: 0;
+    }
+    .region-filters {
+        justify-content: flex-start; 
+    }
+    .modal-content {
+        padding: 20px;
+    }
+    .modal-close-btn {
+        font-size: 2rem;
+        top: 5px;
+        right: 10px;
+    }
+    .custom-message-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .weather-info .weather-btn {
+        max-width: 100%; 
+    }
 }
