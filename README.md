@@ -68,7 +68,7 @@ Primero, clona el repositorio y configura el servidor de Python.
 
 ```bash
 # 1. Clona el repositorio si lo tienes en Git
-git clone <URL_DEL_REPOSITORIO>
+git clone [<URL_DEL_REPOSITORIO>](https://github.com/Gab20031995/PipelineExploradorDePaises.git)
 cd <NOMBRE_DE_LA_CARPETA>
 
 # 2. Crea y activa un entorno virtual (recomendado)
