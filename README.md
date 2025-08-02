@@ -1,13 +1,14 @@
-# 2025- II Programación Web
+![LOGO ULEAD](https://github.com/user-attachments/assets/6f54a45a-9049-4952-8bd9-ffe2d4983bf3)
 
-Entregable grupal #3
+# **2025- II Programación Web**
+# **Entregable grupal #4**
 
-Profesor: Alejandro Zamora Esquivel
+## Profesor: Alejandro Zamora Esquivel
 
 Alumnos:
-Gabriel Corrales Mora.
-Jeralin Mayerlin Flores Hernández.
-Jean Rabbat Sánchez.
+- Gabriel Corrales Mora.
+- Jeralin Mayerlin Flores Hernández.
+- Jean Rabbat Sánchez.
 
 # 🌎 Explorador de Países
 
